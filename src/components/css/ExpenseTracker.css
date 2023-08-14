@@ -1,0 +1,148 @@
+.expense-tracker {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+input[type='number'] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type='number']:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.current-balance {
+  text-align: center;
+  color: #6c63ff;
+}
+
+/* ExpenseForm CSS */
+.expense-form {
+  margin-bottom: 20px;
+}
+
+.expense-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.expense-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-form label {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.expense-form input[type='text'],
+.expense-form input[type='number'] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.expense-form input[type='text']:focus,
+.expense-form input[type='number']:focus {
+  outline: none;
+  border-color: #6c63ff;
+}
+
+.expense-form button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.expense-form button:hover {
+  background-color: #5248b3;
+}
+
+/* ExpenseCard CSS */
+.expense-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense-card h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.expense-card .expense-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.expense-card .expense-item:hover {
+  background-color: #e0e0e0;
+}
+
+.expense-card .expense-item .description {
+  flex-grow: 1;
+  margin-right: 10px;
+  color: #333;
+}
+
+.expense-card .expense-item .amount {
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+.expense-card .expense-item .edit-btn,
+.expense-card .expense-item .delete-btn {
+  padding: 5px 10px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.expense-card .expense-item .edit-btn:hover,
+.expense-card .expense-item .delete-btn:hover {
+  background-color: #999;
+  color: #fff;
+}
