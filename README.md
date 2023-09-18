@@ -1,3 +1,7 @@
+🔍PEEK INTO THE WEBSITE : https://aaryan182.github.io/Expense-Tracker/
+
+🔍VIDEO LINK : https://github.com/aaryan182/Expense-Tracker/assets/73265857/c68be899-7850-481f-ab5a-9096122c4b3f
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
